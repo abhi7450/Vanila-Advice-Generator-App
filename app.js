@@ -5,4 +5,3 @@ const fetchAdvice = async () => {
     document.getElementById("title").innerHTML = `Advice # ${data.slip.id}`;
     document.getElementById("text").innerHTML = `"${data.slip.advice}"`;
 };
-fetchAdvice();
